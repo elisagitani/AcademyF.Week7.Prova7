@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF.Week7.Prova7.Core", "AcademyF.Week7.Prova7.Core\AcademyF.Week7.Prova7.Core.csproj", "{2A72CCB2-9F2A-4B80-8F1C-A30F1EF8DFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF.Week7.Prova7.EF", "AcademyF.Week7.Prova7.EF\AcademyF.Week7.Prova7.EF.csproj", "{836A6A38-9D32-4C99-8E57-BDD8B6FA9632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF.Week7.Prova7.WCF", "AcademyF.Week7.Prova7.WCF\AcademyF.Week7.Prova7.WCF.csproj", "{6B525BDB-BBC4-4AEF-96CC-8FD1CDBB0D4D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AcademyF.Week7.Prova7.IISHosting", "AcademyF.Week7.Prova7.IISHosting\", "{A7217492-4F88-4994-B260-C8CA62332E99}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{2a72ccb2-9f2a-4b80-8f1c-a30f1ef8dfa2}|AcademyF.Week7.Prova7.Core.dll;{836a6a38-9d32-4c99-8e57-bdd8b6fa9632}|AcademyF.Week7.Prova7.EF.dll;{6b525bdb-bbc4-4aef-96cc-8fd1cdbb0d4d}|AcademyF.Week7.Prova7.WCF.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63496"
+		Debug.AspNetCompiler.PhysicalPath = "AcademyF.Week7.Prova7.IISHosting\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63496\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63496"
+		Release.AspNetCompiler.PhysicalPath = "AcademyF.Week7.Prova7.IISHosting\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63496\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63496"
+		SlnRelativePath = "AcademyF.Week7.Prova7.IISHosting\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF.Week7.Prova7.ClientWCF", "AcademyF.Week7.Prova7.ClientWCF\AcademyF.Week7.Prova7.ClientWCF.csproj", "{28F3FCC2-DE60-4517-94A5-44BFD9CCA16C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7217492-4F88-4994-B260-C8CA62332E99} = {A7217492-4F88-4994-B260-C8CA62332E99}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.Atcit.Framework.Core", "Avanade.Atcit.Framework.Core\Avanade.Atcit.Framework.Core.csproj", "{0097131A-A3CB-48E9-B333-FED8D8AC63D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF.Week7.Prova7.WebAPI", "AcademyF.Week7.Prova7.WebAPI\AcademyF.Week7.Prova7.WebAPI.csproj", "{A9941920-2AF4-4A8F-AA1E-234DA94A7988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF.Week7.Prova7.APIClient", "AcademyF.Week7.Prova7.APIClient\AcademyF.Week7.Prova7.APIClient.csproj", "{04C138D5-693C-425A-87C0-3F8BE2A08E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A72CCB2-9F2A-4B80-8F1C-A30F1EF8DFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A72CCB2-9F2A-4B80-8F1C-A30F1EF8DFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A72CCB2-9F2A-4B80-8F1C-A30F1EF8DFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A72CCB2-9F2A-4B80-8F1C-A30F1EF8DFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836A6A38-9D32-4C99-8E57-BDD8B6FA9632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836A6A38-9D32-4C99-8E57-BDD8B6FA9632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836A6A38-9D32-4C99-8E57-BDD8B6FA9632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836A6A38-9D32-4C99-8E57-BDD8B6FA9632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B525BDB-BBC4-4AEF-96CC-8FD1CDBB0D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B525BDB-BBC4-4AEF-96CC-8FD1CDBB0D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B525BDB-BBC4-4AEF-96CC-8FD1CDBB0D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B525BDB-BBC4-4AEF-96CC-8FD1CDBB0D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7217492-4F88-4994-B260-C8CA62332E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7217492-4F88-4994-B260-C8CA62332E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7217492-4F88-4994-B260-C8CA62332E99}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7217492-4F88-4994-B260-C8CA62332E99}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{28F3FCC2-DE60-4517-94A5-44BFD9CCA16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F3FCC2-DE60-4517-94A5-44BFD9CCA16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F3FCC2-DE60-4517-94A5-44BFD9CCA16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F3FCC2-DE60-4517-94A5-44BFD9CCA16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0097131A-A3CB-48E9-B333-FED8D8AC63D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0097131A-A3CB-48E9-B333-FED8D8AC63D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0097131A-A3CB-48E9-B333-FED8D8AC63D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0097131A-A3CB-48E9-B333-FED8D8AC63D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9941920-2AF4-4A8F-AA1E-234DA94A7988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9941920-2AF4-4A8F-AA1E-234DA94A7988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9941920-2AF4-4A8F-AA1E-234DA94A7988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9941920-2AF4-4A8F-AA1E-234DA94A7988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C138D5-693C-425A-87C0-3F8BE2A08E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C138D5-693C-425A-87C0-3F8BE2A08E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C138D5-693C-425A-87C0-3F8BE2A08E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C138D5-693C-425A-87C0-3F8BE2A08E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB5EEA64-31B7-4C61-B2BA-A3961B6C92F1}
+	EndGlobalSection
+EndGlobal
